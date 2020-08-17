@@ -116,3 +116,12 @@ Here are the commands and tweaks used to create the application
     - `ng generate service time/time`
     - `ng generate module shared`
     - `ng generate pipe shared/duration`
+
+11. Add statistics feature
+
+    - `ng generate module statistics`
+    - `ng generate component statistics`
+    - `ng generate component statistics/statistics-by-date`
+    - `ng generate component statistics/statistics-by-project`
+    - `ng generate service statistics/statistics`
+    - `ng generate directive statistics/worktime`

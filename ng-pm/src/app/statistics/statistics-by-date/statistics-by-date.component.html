@@ -1,0 +1,23 @@
+<div class="jumbotron">
+  <h3>Grouped by Day</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Datum</th>
+        <th>Dauer</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of timesByDate" bbvWorkTime="{{ item.amount }}">
+        <td>{{ item.date | date }}</td>
+        <td>{{ item.amount | toHours }}</td>
+      </tr>
+      <tr>
+        <td><b>Total</b></td>
+        <td>
+          <b>{{ totalTime | toHours }}</b>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
