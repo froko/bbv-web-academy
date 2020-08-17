@@ -87,3 +87,10 @@ Here are the commands and tweaks used to create the application
 7. Add home component
 
    `ng generate component home`
+
+8. Add academy feature
+
+   - `ng generate module academy`
+   - `ng generate component academy`
+   - `ng generate component academy/academy-detail`
+   - `ng generate service academy/academy`
