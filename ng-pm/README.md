@@ -75,3 +75,7 @@ Here are the commands and tweaks used to create the application
 4. Add JSON Web API
 
    `npm install json-server jsonwebtoken --save-dev`
+
+5. Add navigation component
+
+   `ng generate component nav`
