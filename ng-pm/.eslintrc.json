@@ -17,6 +17,7 @@
       "plugins": ["eslint-plugin-import", "prettier"],
       "rules": {
         "@angular-eslint/no-input-rename": "off",
+        "@angular-eslint/no-output-native": "off",
         "@angular-eslint/component-selector": [
           "error",
           {

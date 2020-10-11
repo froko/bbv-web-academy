@@ -3,6 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 
 import { of } from 'rxjs';
 
+import { AcademyBoxComponent } from './academy-box/academy-box.component';
 import { AcademyComponent } from './academy.component';
 import { AcademyService } from './academy.service';
 
@@ -20,7 +21,7 @@ describe('AcademyComponent', () => {
     waitForAsync(() => {
       TestBed.configureTestingModule({
         imports: [RouterTestingModule],
-        declarations: [AcademyComponent],
+        declarations: [AcademyComponent, AcademyBoxComponent],
         providers: [{ provide: AcademyService, useValue: academyService }]
       }).compileComponents();
     })
