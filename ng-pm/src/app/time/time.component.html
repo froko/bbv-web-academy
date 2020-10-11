@@ -1,0 +1,27 @@
+<h2>Time Tracking</h2>
+
+<button class="btn btn-primary" [routerLink]="['/time', 'new']">Neuen Eintrag hinzufügen</button>
+<p>&nbsp;</p>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Datum</th>
+      <th>Dauer</th>
+      <th>Projekt</th>
+      <th>Kostengruppe</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let time of times$ | async">
+      <td>{{ time.date | date }}</td>
+      <td>{{ time.amount | toHours }}</td>
+      <td>{{ time.project }}</td>
+      <td>{{ time.costType }}</td>
+      <td>
+        <button class="btn btn-info" [routerLink]="['/time', time.id]">Details</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

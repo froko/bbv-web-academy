@@ -13,7 +13,8 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "@ng-pm/auth": ["src/app/auth/index.ts"]
+      "@ng-pm/auth": ["src/app/auth/index.ts"],
+      "@ng-pm/shared": ["src/app/shared/index.ts"]
     }
   }
 }

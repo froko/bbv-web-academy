@@ -16,6 +16,7 @@ import { NavComponent } from './nav/nav.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
+  { path: 'time', loadChildren: () => import('./time/time.module').then((m) => m.TimeModule) },
   { path: 'academy', loadChildren: () => import('./academy/academy.module').then((m) => m.AcademyModule) },
   { path: '**', redirectTo: '/' }
 ];

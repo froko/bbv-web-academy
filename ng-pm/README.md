@@ -106,3 +106,13 @@ Here are the commands and tweaks used to create the application
    - `ng generate service auth/auth-interceptor`
    - `ng generate component auth/login`
    - `ng generate component auth/logout`
+
+10. Add time feature
+
+    - `ng generate module time`
+    - `ng generate component time`
+    - `ng generate component time/time-detail`
+    - `ng generate component time/new-time`
+    - `ng generate service time/time`
+    - `ng generate module shared`
+    - `ng generate pipe shared/duration`
