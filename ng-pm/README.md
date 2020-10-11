@@ -79,3 +79,7 @@ Here are the commands and tweaks used to create the application
 5. Add navigation component
 
    `ng generate component nav`
+
+6. Add footer component
+
+   `ng generate component footer`
