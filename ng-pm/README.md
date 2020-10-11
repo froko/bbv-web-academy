@@ -83,3 +83,7 @@ Here are the commands and tweaks used to create the application
 6. Add footer component
 
    `ng generate component footer`
+
+7. Add home component
+
+   `ng generate component home`
