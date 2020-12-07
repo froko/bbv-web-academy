@@ -94,3 +94,15 @@ Here are the commands and tweaks used to create the application
    - `ng generate component academy`
    - `ng generate component academy/academy-detail`
    - `ng generate service academy/academy`
+
+9. Add auth feature
+
+   - `npm install @auth0/angular-jwt --save`
+   - `ng generate service event-bus`
+   - `ng generate module auth`
+   - `ng generate class auth/login.state`
+   - `ng generate service auth/auth`
+   - `ng generate service auth/auth-guard`
+   - `ng generate service auth/auth-interceptor`
+   - `ng generate component auth/login`
+   - `ng generate component auth/logout`

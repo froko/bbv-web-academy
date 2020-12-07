@@ -24,6 +24,7 @@
     "@angular/platform-browser": "11.0.3",
     "@angular/platform-browser-dynamic": "11.0.3",
     "@angular/router": "11.0.3",
+    "@auth0/angular-jwt": "5.0.2",
     "@froko/ng-essentials": "6.0.0",
     "bootstrap": "4.5.3",
     "font-awesome": "4.7.0",

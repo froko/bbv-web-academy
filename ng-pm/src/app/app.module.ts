@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 
+import { JwtModule } from '@auth0/angular-jwt';
+
+import { AuthModule, jwtModuleOptions } from '@ng-pm/auth';
+
 import { ENV_PROVIDERS } from '../environments/environment';
 
 import { AppComponent } from './app.component';
@@ -18,7 +22,13 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [AppComponent, NavComponent, FooterComponent, HomeComponent],
-  imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(routes)],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    RouterModule.forRoot(routes),
+    JwtModule.forRoot(jwtModuleOptions),
+    AuthModule
+  ],
   providers: [ENV_PROVIDERS],
   bootstrap: [AppComponent]
 })

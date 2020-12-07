@@ -12,6 +12,8 @@
     "target": "es2015",
     "module": "es2020",
     "lib": ["es2018", "dom"],
-    "paths": {}
+    "paths": {
+      "@ng-pm/auth": ["src/app/auth/index.ts"]
+    }
   }
 }

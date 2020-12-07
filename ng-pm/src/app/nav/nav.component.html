@@ -6,13 +6,18 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" href="#">Statistics</a>
+        <a class="nav-link" routerLink="/statistics">Statistics</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" href="#">Time</a>
+        <a class="nav-link" routerLink="/time">Time</a>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link" routerLink="/academy">Academy</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item" style="cursor: pointer;">
+        <a class="nav-link" data-cy="loginNavButton" (click)="navigate()">{{ loginState.userName }}</a>
       </li>
     </ul>
   </div>

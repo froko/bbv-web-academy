@@ -48,6 +48,10 @@
               {
                 "pattern": "@angular/**",
                 "group": "builtin"
+              },
+              {
+                "pattern": "@ng-pm/**",
+                "group": "internal"
               }
             ]
           }
