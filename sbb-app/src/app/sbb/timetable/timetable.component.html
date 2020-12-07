@@ -1,0 +1,5 @@
+<div class="container">
+  <div *ngFor="let connection of connections$ | async">
+    <sbb-connection [connection]="connection" (select)="onSelect($event)"></sbb-connection>
+  </div>
+</div>

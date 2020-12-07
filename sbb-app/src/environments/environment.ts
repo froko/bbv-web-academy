@@ -1,6 +1,6 @@
 const providers: any[] = [
   { provide: 'environment', useValue: 'Development' },
-  { provide: 'baseUrl', useValue: 'http://localhost:3000' }
+  { provide: 'baseUrl', useValue: 'http://transport.opendata.ch' }
 ];
 
 export const ENV_PROVIDERS = providers;

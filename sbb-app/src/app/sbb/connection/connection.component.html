@@ -1,0 +1,12 @@
+<mat-card (click)="onClick()">
+  <mat-card-header>
+    <h3>{{ connection.from }} - {{ connection.to }}</h3>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{ connection.from }} ab {{ connection.departure | date: 'HH:mm' }}, Gleis
+      {{ connection.fromPlatform }}
+    </p>
+    <p>{{ connection.to }} an {{ connection.arrival | date: 'HH:mm' }}, Gleis {{ connection.toPlatform }}</p>
+  </mat-card-content>
+</mat-card>
