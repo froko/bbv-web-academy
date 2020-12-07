@@ -1,0 +1,287 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "enabled": true,
+      "name": "B.003.001: Administrativ",
+      "costTypes": [
+        { "id": 1, "name": "Admin/IT" },
+        { "id": 2, "name": "Tool-Unterhalt" },
+        { "id": 3, "name": "Projekt-Programm" },
+        { "id": 4, "name": "Ferien" },
+        { "id": 5, "name": "Krankheit" },
+        { "id": 6, "name": "Bezahlte Absenzen" }
+      ]
+    },
+    {
+      "id": 2,
+      "enabled": true,
+      "name": "B.004.001: Business Development",
+      "costTypes": [
+        { "id": 1, "name": "Marketing" },
+        { "id": 2, "name": "Partnerschaften" },
+        { "id": 3, "name": "Aquisition" }
+      ]
+    },
+    {
+      "id": 3,
+      "enabled": true,
+      "name": "B.005.001: Ausbildung",
+      "costTypes": [
+        { "id": 1, "name": "Individuelle Ausbildung" },
+        { "id": 2, "name": "Konferenz- und Kursteilnahme" },
+        { "id": 3, "name": "Zertifizierung inkl. Vorbereitung" }
+      ]
+    },
+    {
+      "id": 4,
+      "enabled": true,
+      "name": "B.005.003: Fokustage",
+      "costTypes": [
+        { "id": 1, "name": "Vorbereitung" },
+        { "id": 2, "name": "Teilnahme" }
+      ]
+    },
+    {
+      "id": 5,
+      "enabled": true,
+      "name": "B.005.004: Mentoring",
+      "costTypes": [
+        { "id": 1, "name": "Mentor" },
+        { "id": 2, "name": "Mentee" }
+      ]
+    }
+  ],
+
+  "times": [
+    {
+      "id": 1,
+      "date": "2020-12-09T00:00",
+      "amount": 90,
+      "project": "B.003.001: Administrativ",
+      "costType": "Admin/IT",
+      "comment": "Zeiterfassung und Monatsabschluss"
+    },
+    {
+      "id": 2,
+      "date": "2020-12-09T00:00",
+      "amount": 120,
+      "project": "B.005.001: Ausbildung",
+      "costType": "Individuelle Ausbildung",
+      "comment": "Angular: Routing & Navigation"
+    },
+    {
+      "id": 3,
+      "date": "2020-12-09T00:00",
+      "amount": 320,
+      "project": "B.003.001: Ausbildung",
+      "costType": "Individuelle Ausbildung",
+      "comment": "Angular: NgRx"
+    },
+    {
+      "id": 4,
+      "date": "2020-12-10T00:00",
+      "amount": 280,
+      "project": "B.005.003: Fokustage",
+      "costType": "Vorbereitung",
+      "comment": "Vorbereitung Come&Go: NoSql Datenbanken"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": 1,
+      "title": "Architektur in agilen Projekten",
+      "category": "Software Engineering",
+      "teacher": "Marco Ravicini",
+      "date": "auf Anfrage, 2-Tages-Kurs",
+      "abstract": "Die Architektur entscheidet mit Weitblick die Strukturen und Interaktionen im Grossen. Passt das zu der von agilen Methoden geforderten Flexibilität und kurzen Entwicklungszyklen? Erfahren Sie, wie Ihnen die Architektur als Teamaufgabe, das Entscheiden zum richtigen Zeitpunkt und Designgrundsätze im Alltag helfen können.",
+      "content": [
+        "Die Zeiten sind vorbei, als der Softwarearchitekt in seinem dunklen Raum sass und aus den Anforderungen eine Architektur zauberte. Das Bedürfnis nach schnelleren Entwicklungszyklen und mehr Flexibilität bei Veränderungen der Anforderungen hat in den letzten Jahren den agilen Entwicklungsmethoden zum Siegeszug verholfen.",
+        "",
+        "Lernen Sie in diesem Kurs, wie Sie den Spagat zwischen dem Bedürfnis, grosse, teure Ideen zu Beginn zu definieren, und dem Zwang, schnell Änderungen umsetzen zu können, meistern. Die praktischen Übungen umfassen die Themen «Architektur als Teamaufgabe», «Entscheiden (was und wann)» und «Designgrundsätze für Veränderbarkeit»."
+      ],
+      "target": "Sie lernen, wie Sie die Balance zwischen Weitblick und Flexibilität finden, d.h. welche Entscheide müssen wann getroffen werden und wie kann eine Architektur Schritt für Schritt weiter entwickelt werden."
+    },
+    {
+      "id": 2,
+      "title": "Architektur und Modellierung von ETL-Prozessen",
+      "category": "Datenbanken",
+      "teacher": "Michael Schönwetter",
+      "date": "Dienstag, 8. September 2020, 09.00-17.00 Uhr",
+      "abstract": "Erfahren Sie mehr über die Gestaltung unterschiedlicher Typen von Data-Warehouse-Architekturen mit deren wesentlichen Bestandteilen. Bei der Modellierung von ETL-Prozessen lernen Sie Best Practices und bewährte Muster typischer Aufgabenstellungen kennen sowie die betriebswirtschaftlichen Aspekte.",
+      "content": [
+        "Data-Warehouse-Betriebsprozesse bestehen aus komplexen und lastintensiven Datenbereitstellungsprozessen und stellen eine wesentliche Grundlage von DWH-Architekturen dar. In diesen Prozessen sind Extraktions-, Transformations- und Ladevorgänge zu unterschieden, die unter dem Begriff ETL subsumiert werden."
+      ],
+      "target": "Sie erfahren mehr über die Gestaltung unterschiedlicher Typen von Data-Warehouse-Architekturen mit deren wesentlichen Bestandteilen. Bei der Modellierung von ETL-Prozessen lernen Sie Best Practices und bewährte Muster typischer Aufgabenstellungen kennen sowie die betriebswirtschaftlichen Aspekte."
+    },
+    {
+      "id": 3,
+      "title": "ATDD/BDD mit C++",
+      "category": "Software Engineering",
+      "teacher": "Michel Estermann",
+      "date": "Donnerstag/Freitag, 17./18. September 2020 09.00-17.00 Uhr",
+      "abstract": "Lernen Sie ATDD und Behaviour Driven Development (BDD) zur Spezifikation einer Software zu nutzen und erfahren Sie, wie BDD als Kommunikationsmittel zwischen Business und Entwicklung die Softwareentwicklung verbessert. Anhand einer Geschäftsidee lernen Sie das gesamte Vorgehen kennen und können dies anschliessend in Ihrem Projekt umsetzen.",
+      "content": [
+        "Sie beherrschen Test Driven Development (TDD) für die Entwicklung von C++-Komponenten (Unit) und möchten jetzt auch Ihre Systemanforderungen testgetrieben entwickeln.",
+        "",
+        "Lernen Sie Behaviour Driven Development (BDD) kennen als Spezifikation des Systems und als Kommunikationsmittel und Schnittstelle zwischen Business und Entwicklung und erfahren Sie die Vorteile und Grenzen mit BDD. Anhand einer einfachen Geschäftsidee werden Sie, angefangen bei den User Stories eines Produkt-Backlogs, ausführbare Szenarien schreiben. Diese Szenarien treiben Ihre Entwicklung dann weiter mittels Unit Tests zu einer wartbaren und qualitativ hochwertigen Lösung voran."
+      ],
+      "target": "Sie können ATDD/BDD in Ihrem Projekt umsetzen. Sie ermöglichen so eine iterative und inkrementelle Softwareentwicklung mit höchster Qualität. Sie gewinnen langfristige Anpassbarkeit Ihrer Software an neue oder geänderte Geschäftsanforderungen und erhalten eine ausführliche, immer aktuelle Spezifikation Ihres Gesamtsystems."
+    },
+    {
+      "id": 4,
+      "title": "Automated Deployment",
+      "category": "Software Engineering",
+      "teacher": "Fabian Trottmann",
+      "date": "Donnerstag, 24. September 2020, 09.00-17.00 Uhr",
+      "abstract": "Schaffen Sie kurze Release- und Feedbackzyklen, indem Sie Ihre Features schnellstmöglich und zuverlässig auf Ihre Umgebungen automatisiert deployen.",
+      "content": [
+        "Agile Software Entwicklung braucht kurze Feedbackzyklen, um die Richtigkeit der umgesetzten Anforderung zu überprüfen und die Software in kurzen Releasezyklen auszuliefern.",
+        "Automated Deployment schafft die Voraussetzung dafür, die Features zuverlässig und schnell auf unterschiedliche Umgebungen wie Test-, Staging- oder Produktions-umgebungen automatisiert zu installieren."
+      ],
+      "target": "Sie erlernen Tools und Fähigkeiten, die Ihnen die Umsetzung von Automated Deployment auch in komplexen verteilten Umgebungen ermöglichen. Somit erreichen Sie kurze Feedbackzyklen mit schnellstmöglichem Testfeedback von einem realen System."
+    },
+    {
+      "id": 5,
+      "title": "Blockchain Innovation Workshop",
+      "category": "Executive Seminar",
+      "teacher": "Herr Dr. Alan Ettlin",
+      "date": "auf Anfrage, 1-Tages-Kurs",
+      "abstract": "Von der Idee zum Business Case",
+      "content": [
+        "Im Blockchain Innovation Workshop finden und konkretisieren Sie Geschäftsideen rund um das Thema Blockchain gemeinsam mit unseren Experten in drei separat buchbaren Modulen."
+      ],
+      "target": ""
+    },
+    {
+      "id": 6,
+      "title": "Certified Scrum Master (CSM)",
+      "category": "Agile/Scrum",
+      "teacher": "Reza Farhang",
+      "date": "Dienstag/Mittwoch, 13./14. Oktober 2020, 09.00-17.00 Uhr",
+      "abstract": "Scrum is a popular Agile software development method. In this two-day certification course, prepared in accordance with the Scrum Alliance's requirements, you will learn the Scrum basics through practical exercises.",
+      "content": [
+        "Dieser Kurs wird in Englisch durchgeführt werden. The course will be held in English.",
+        "",
+        "Scrum is a popular Agile software development method. In this two-day certification course, prepared in accordance with the Scrum Alliances requirements, you will learn the Scrum basics through practical exercises. This course is organized by bbv in cooperation with Crisp AB from Stockholm, Sweden. Crisp AB employs experienced and committed Scrum trainers, among them Henrik Kniberg, author of the standard reference Scrum and XP from the Trenches. The course fee covers the certification fee as well as a two-year membership in the Scrum Alliance."
+      ],
+      "target": "After attending this course, participants are enabled to apply Scrum in their own projects and are familiar with ideas of how to continuously improve their development processes."
+    },
+    {
+      "id": 7,
+      "title": "Certified Scrum Product Owner (CSPO)",
+      "category": "Agile/Scrum",
+      "teacher": "Reza Farhang",
+      "date": "Donnerstag/Freitag, 15./16. Oktober 2020, 09.00-17.00 Uhr",
+      "abstract": "Scrum is the de-facto standard for modern solution development. In this two-day certification course, prepared in accordance with the Scrum Alliance's you will be introduced to the role, duties and responsibilities of the Product Owner.",
+      "content": [
+        "Dieser Kurs wird in Englisch durchgeführt werden. The course will be held in English.",
+        "",
+        "Scrum is the de-facto standard for modern solution development. In this two-day certification course, prepared in accordance with the Scrum Alliances requirements, you will learn the Scrum basics through practical exercises, and you will be introduced to the role, duties and responsibilities of the Product Owner. This course is organized by bbv in cooperation with Crisp AB from Stockholm, Sweden. The course fee covers the certification fee as well as a two-year membership in the Scrum Alliance."
+      ],
+      "target": "After attending this course, participants can lead an agile project from inception to successful completion."
+    },
+    {
+      "id": 8,
+      "title": "Clean Code",
+      "category": "Software Engineering",
+      "teacher": "Marko Markovic",
+      "date": "Mittwoch/Donnerstag, 28./29. Oktober 2020, 09.00-17.00 Uhr",
+      "abstract": "Erkennen Sie die Vorteile von Clean Code. Steigern Sie die Softwarequalität durch professionellen, selbstsprechenden und wartungsfreundlichen Code. Erhöhen Sie Ihre Produktivität und minimieren Sie Softwarefehler.",
+      "content": [
+        "Wenn die Entwickler ihren eigenen Code nicht mehr verstehen, öffnet dies Defekten und Projektverzögerungen Tür und Tor. Clean Code ist Code, der möglichst einfach zu verstehen ist und mit dem simpelsten möglichen Design umgesetzt ist. Dadurch führt Clean Code direkt zu einer schnelleren und damit kostengünstigeren Softwareentwicklung.",
+        "",
+        "Dieser Kurs ist eine Einführung in Clean Code, dessen Regeln (KISS, DRY, YAGNI, SOLID) und Methoden (Refactoring, Dependency Injection) zur Verankerung im Team helfen. Im Kurs lernen Sie, wie Sie die Abhängigkeiten im Code überschaubar halten, wie Sie mit gezielter Entkopplung und Abstraktion den Code modular behalten und wie Sie durch feature-orientierte Strukturierung den Code organisieren können",
+        "",
+        "Die praktischen Übungen bilden den Hauptteil des Kurses und helfen Ihnen, das Gelernte direkt in Ihr Projekt mitzunehmen. Die Beispiele und Übungen werden in C# durchgeführt."
+      ],
+      "target": "Sie lernen Ihren Code besser zu strukturieren und aufzubauen. Sie erkennen schwer verständlichen Code und wissen, wie Sie diesen vereinfachen und verbessern können."
+    },
+    {
+      "id": 9,
+      "title": "Distributed Version Control mit Git",
+      "category": "Software Engineering",
+      "teacher": "Silvan Wegmann",
+      "date": "Dienstag, 10. November 2020, 09.00-17.00 Uhr",
+      "abstract": "Git ist ein verteiltes Versionsverwaltungssystem der nächsten Generation. Sie erhalten einen Überblick über Git und lernen, wie Sie Git einsetzen und die dazu erforderlichen Arbeitsabläufe aufsetzen.",
+      "content": [
+        "Git unterscheidet sich von traditionellen Versionsverwaltungssystemen. Sie können Git Ihren Arbeitsabläufen anpassen und nicht umgekehrt, wie das bei vielen anderen Systemen der Fall ist. Lernen Sie verschiedenen Einsatzszenarien und Funktionen von Git kennen, um sich ein Bild zu machen und um Git einzusetzen."
+      ],
+      "target": "Nach dem Kurs kennen Sie die Vorteile von Git und wie Sie Git in verschiedenen Szenarien einsetzen können. Neben den Abläufen kennen Sie auch die Funktionen, um mit Git im täglichen Einsatz zu bestehen."
+    },
+    {
+      "id": 10,
+      "title": "Mehrdimensionale Datenmodellierung für DWH und Data Marts",
+      "category": "Datenbanken",
+      "teacher": "Georg Lampart",
+      "date": "auf Anfrage, 1 Kurstag",
+      "abstract": "Fokus auf endbenutzernaher, multidimensionaler Datenstrukturen.",
+      "content": [
+        "Die Datenmodellierung für DWH und Data Marts stellt Entwickler und Architekten vor besondere Herausforderungen, da durch die Modellierung die Leistungsfähigkeit der Systeme und somit deren erfolgreiche Nutzung bestimmt werden. Der Referent fokussiert in diesem Seminar auf die Modellierung endbenutzernaher, multidimensionaler Datenstrukturen und betrachtet dabei insbesondere die fachkonzeptionelle Ebene und die hierzu geeigneten Methoden und Beschreibungsmittel der Modellierung."
+      ],
+      "target": "Dieses Seminar fokussiert sich auf die Modellierung endbenutzernaher, multidimensionaler Datenstrukturen und betrachtet dabei insbesondere die fachkonzeptionelle Ebene und die hierzu geeigneten Methoden und Beschreibungsmittel der Modellierung."
+    },
+    {
+      "id": 11,
+      "title": "Mobile Applikationen von A bis Z",
+      "category": "Mobile",
+      "teacher": "Ken Blum",
+      "date": "Dienstag/Mittwoch, 17./18. November 2020, 08.00-16.45 Uhr",
+      "abstract": "Einer Gartner-Studie zufolge werden im Jahr 2017 über 268 Milliarden Mobile Apps heruntergeladen werden und damit einen Umsatz von 77 Milliarden US-Dollar generieren. Mit wachsender Verfügbarkeit von Apps steigen aber auch die Erwartungen der Benutzer. Eine App ohne Top-Bewertungen wird kaum je den Weg auf das Gerät eines Benutzers finden. In diesem Kurs lernen Sie, wie Sie professionell solche qualitativ hochwertigen Apps entwickeln.",
+      "content": [
+        "Mobile Apps sind heutzutage allgegenwärtig. Doch gerade aufgrund dieser hohen Verfügbarkeit setzen sich nur die besten Apps langfristig durch.",
+        "",
+        "In diesem Kurs erlernen Sie die nötigen Grundlagen zur Entwicklung und Wartung qualitativer hochwertiger Mobile Apps. Der Kurs vermittelt einen Überblick über alle wichtigen Themen.",
+        "",
+        "Die Themen werden - in einer Kombination aus Theorie und Praxis - anhand einer durchgängigen Case Study vermittelt."
+      ],
+      "target": "Sie kennen die wichtigsten Begriffe, Tätigkeiten und Tools (Mitsprachekompetenz) und Sie wissen, wie eine professionelle Mobilapplikation entsteht und welche Rollen dazu nötig sind."
+    },
+    {
+      "id": 12,
+      "title": "Mobile Apps entwickeln mit Webtechnologien (Angular, Ionic)",
+      "category": "Mobile",
+      "teacher": "Ken Blum",
+      "date": "auf Anfrage, 2-Tages-Kurs",
+      "abstract": "In diesem zweitägigen Workshop werden Sie durch Theorie und an Beispielen lernen, wie man mit HTML, TypeScript und Angular eine komplette Mobile App entwickeln kann. Sie werden auch eine Übersicht erhalten über die diversen Möglichkeiten, die diese SDK anbietet.",
+      "content": [
+        "Sind Sie ein Webdeveloper, der eine Mobile App entwickeln muss? Oder suchen Sie einfach eine nicht aufwändige Alternative, um Cross-Plattform-Apps zu erstellen?",
+        "",
+        "Seit der Einführung der ersten Version von Ionic im Jahr 2013 sind damit bereits mehr als 4 Millionen Apps entwickelt worden. Heutzutage gibt es 5 Millionen Entwickler, die diese Technologie benutzen und von dem vereinfachten Lösungsansatz Write-Once-Run-Everywhere profitieren.",
+        "",
+        "In diesem zweitägigen Workshop werden Sie durch Theorie und an Beispielen lernen, wie man mit HTML, TypeScript und Angular eine komplette Mobile App entwickeln kann. Sie werden auch eine Übersicht erhalten über die diversen Möglichkeiten, die diese SDK anbietet."
+      ],
+      "target": "Sie kennen die wichtigsten Aspekte des Ionic 3 Frameworks und können in kürzester Zeit ein Cross-Plattform-App-Projekt aufsetzen und entwickeln."
+    },
+    {
+      "id": 13,
+      "title": "Professional Web Application Development",
+      "category": "Web",
+      "teacher": "Patrick Ineichen",
+      "date": "Donnerstag/Freitag, 03./04. Dezember 2020, 09.00-17.00 Uhr",
+      "abstract": "JavaScript ist aus der modernen Webentwicklung nicht mehr wegzudenken. In diesem Kurs erhalten Sie einen Überblick über JavaScript und dessen Ökosystem und wie Sie damit professionell komplexeste Webapplikationen entwickeln können.",
+      "content": [
+        "JavaScript existiert schon seit langer Zeit, doch so bedeutend wie heute war es noch nie. Daher ist es unumgänglich, dass Entwickler, die das Web als Plattform nutzen möchten, mit JavaScript und seinen Eigenheiten vertraut sind. Neben einer Einführung in JavaScript lernen Sie, wie Sie dank Best Practices und testgetriebener Entwicklung Ihre Codequalität sicherstellen. Sie erhalten ebenfalls eine Einführung in Angular2. Damit werden Sie mit einem der bekanntesten Frameworks für Webapplikationen bekannt und profitieren von der Erfahrung aus realen Projekten.",
+        "Mit dem richtigen Tooling automatisieren Sie in Kürze aufwändige Buildprozesse, etablieren Continuous Integration, beschleunigen Ihren TDD-Workflow und befreien sich von mühsamem Dependency Management. Lernen Sie mit TypeScript eine Alternative zu JavaScript kennen, die sich in Kombination mit Visual Studio hervorragend für die Webentwicklung eignet."
+      ],
+      "target": "Mit diesem Kurs erhalten Sie eine Übersicht über die Aspekte der modernen Webentwicklung. Egal, ob sie völlig neu in der Webentwicklung sind oder bereits Erfahrung mit serverseitigen Frameworks wie ASP.NET Web Forms oder MVC gemacht haben, in diesem Kurs lernen Sie, wie moderne Webapplikationen funktionieren und entwickelt werden. Anstatt Sie mit haarspalterischen Details von bereits veralteten Bibliotheken und Frameworks zu langweilen, vermitteln wir Ihnen die wesentlichen Konzepte und Möglichkeiten der modernen Webentwicklung. Schaffen Sie sich mit diesem Kurs eine solide Grundlage, um sich sicher in der stetig wandelnden Welt der Webentwicklung zu bewegen."
+    },
+    {
+      "id": 14,
+      "title": "Professionelle WPF-Anwendungen mit dem MVVM-Pattern entwickeln",
+      "category": "Software Engineering",
+      "teacher": "Marko Markovic",
+      "date": "Dienstag/Mittwoch, 15./16. Dezember 2020, 09.00-17.00 Uhr",
+      "abstract": "Sie lernen den effizienten Einsatz des Model View View Models (MVVM) als Designkonzept für WPF-Anwendungen kennen und erhalten Sicherheit im Test Driven Development sowie User-Interface-Architekturen.",
+      "content": [
+        "Das Model View View Model (MVVM) macht, als Designkonzept richtig angewendet, Anwendungen wart- und testbar. Sie lernen den richtigen Umgang mit MVVM und WPF kennen. Praktische Übungen verstärken Ihr Verständnis für das Entwurfsmuster, bringen Sicherheit im Umgang mit Test Driven Development sowie User-Interface-Architekturen.",
+        "",
+        "Neben den Grundlagen tauchen Sie in komplexere Anwendungsfälle wie hierarchische Views, Plug-in-Architekturen und asynchrones Laden von Daten ein. Sie erfahren anhand von Referenzimplementierungen, wie dadurch die Entwicklungszeit verkürzt werden kann. Weiter lernen Sie die Unterschiede und Gemeinsamkeiten mit ähnlichen Mustern wie Model View Controller (MVC) sowie Model View Presenter (MVP).",
+        "",
+        "Sie werden nach der Schulung in der Lage sein, WPF- sowie Silverlight- Anwendungen nach dem MVVM-Muster aufzubauen."
+      ],
+      "target": "Sie können professionelle Anwendungen nach dem MVVM-Muster erstellen. Sie lernen die gängigsten User Interface Architektur Patterns kennen. Sie können testbare Präsentationslogik dank MVVM entwickeln."
+    }
+  ]
+}
