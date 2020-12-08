@@ -1,0 +1,5 @@
+logo: assets/bbv.png
+footnote: "bbv Web Academy"
+theme: white
+theme-override: assets/custom.css
+remote-control: true

@@ -1,0 +1,60 @@
+
+
+@startuml
+
+title ng-pm - Component Diagram
+
+component [EventBusService]
+
+package "AppModule" {
+    component [AppComponent]
+    component [NavComponent]
+    component [FooterComponent]
+    component [HomeComponent]
+}
+
+package "AcademyModule" {
+    component [AcademyComponent]
+    component [AcademyBoxComponent]
+    component [AcademyDetailComponent]
+    component [AcademyService]
+}
+
+package "AuthModule" {
+    component [LoginComponent]
+    component [LogoutComponent]
+    component [AuthService]
+    component [AuthGuardService]
+    component [AuthInterceptorService]
+}
+
+package "SharedModule" {
+    component [DurationPipe]
+}
+
+package "TimeModule" {
+    component [TimeComponent]
+    component [NewTimeComponent]
+    component [TimeDetailComponent]
+    component [TimeService]
+}
+
+package "StatisticsModule" {
+    component [StatisticsComponent]
+    component [StatisticsByDateComponent]
+    component [StatisticsByProjectComponent]
+    component [WorktimeDirective]
+    component [StatisticsService]
+}
+
+[AppComponent] --> [NavComponent]
+[AppComponent] --> [FooterComponent]
+[NavComponent] --> [EventBusService]
+[AuthService] --> [EventBusService]
+
+
+AppModule --> AuthModule
+TimeModule --> SharedModule
+StatisticsModule --> SharedModule
+
+@enduml
