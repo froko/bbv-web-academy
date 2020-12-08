@@ -52,7 +52,8 @@ Here's the link to the slides: https://gitpitch.com/froko/bbv-web-academy
 
 - https://angular.io/guide/styleguide
 - https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines
-- https://palantir.github.io/tslint/rules/
+- https://eslint.org/
+- https://github.com/angular-eslint/angular-eslint
 - https://prettier.io/
 
 ### Architecture
@@ -71,14 +72,17 @@ Here's the link to the slides: https://gitpitch.com/froko/bbv-web-academy
 - https://www.netlify.com/
 - https://jestjs.io/
 - https://www.cypress.io/
-- https://netbasal.com/spectator-v4-a-powerful-tool-to-simplify-your-angular-tests-bd65a0bf317e
+- https://github.com/ngneat/spectator
 - https://ngneat.github.io/transloco/
 - https://www.npmjs.com/package/@froko/ng-essentials
 - https://www.npmjs.com/package/@auth0/angular-jwt
 - https://arkit.pro/
 - https://www.ngxs.io/
+- https://ngrx.io/
+- https://storybook.js.org/
 
 ### Framework Comparison
 
-- https://dzone.com/articles/react-vs-angular-vs-vuejs-a-complete-comparison-gu
-- https://medium.com/@TechMagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
+- https://www.educative.io/blog/react-angular-vue-comparison
+- https://entwickler.de/online/javascript/angular-vs-react-vs-vue-js-579921249.html
+- https://www.youtube.com/watch?v=lYWYWyX04JI
