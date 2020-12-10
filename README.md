@@ -80,6 +80,7 @@ Here's the link to the slides: https://gitpitch.com/froko/bbv-web-academy
 - https://www.ngxs.io/
 - https://ngrx.io/
 - https://storybook.js.org/
+- https://manfredsteyer.github.io/angular-oauth2-oidc/docs/index.html
 
 ### Framework Comparison
 
