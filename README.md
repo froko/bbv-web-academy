@@ -2,8 +2,6 @@
 
 This repo contains all the assets for the bbv academy course called "Professional Web Application Development".
 
-Here's the link to the slides: https://gitpitch.com/froko/bbv-web-academy
-
 ## Web Resources
 
 ### HTML, CSS, JavaScript
